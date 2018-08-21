@@ -405,7 +405,7 @@ class DeliveryDetailsVC: UIViewController, UIPickerViewDelegate, UIPickerViewDat
         }
         self.view.endEditing(true)
     }
-    
+    //For commiting things TEST
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if pickerView == deliveryPicker {
             return DeliveryDataArr[row]
