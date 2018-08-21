@@ -1,0 +1,1072 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04061F3020EF3C600058093C /* StoreClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04061F2F20EF3C600058093C /* StoreClass.swift */; };
+		04061F3220EF3DAF0058093C /* ConstantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04061F3120EF3DAF0058093C /* ConstantClass.swift */; };
+		04061F3620F09DC80058093C /* MenuTable_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04061F3520F09DC80058093C /* MenuTable_Cell.swift */; };
+		04690A1F2107166C00389CB2 /* CustomHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A1E2107166C00389CB2 /* CustomHistoryCell.swift */; };
+		04690A212107328100389CB2 /* CustompendingDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A202107328100389CB2 /* CustompendingDetailVC.swift */; };
+		04690A2321073D5000389CB2 /* PromotionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A2221073D5000389CB2 /* PromotionsVC.swift */; };
+		04690A252107619D00389CB2 /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A242107619D00389CB2 /* AboutUsVC.swift */; };
+		04690A2721083FA600389CB2 /* FaqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A2621083FA600389CB2 /* FaqVC.swift */; };
+		04690A292108452300389CB2 /* AccountSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690A282108452300389CB2 /* AccountSettingVC.swift */; };
+		047AB2142100A64F0088870E /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB2132100A64F0088870E /* EditProfileVC.swift */; };
+		047AB2172100A9760088870E /* EditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB2162100A9760088870E /* EditingVC.swift */; };
+		047AB21A2101C5F60088870E /* HistoryMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB2192101C5F60088870E /* HistoryMainVC.swift */; };
+		047AB21C2101C60B0088870E /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB21B2101C60B0088870E /* HistoryVC.swift */; };
+		047AB21E2101C61F0088870E /* PendingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB21D2101C61F0088870E /* PendingVC.swift */; };
+		047AB2202101E68D0088870E /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB21F2101E68D0088870E /* HistoryCell.swift */; };
+		047AB2222101E69F0088870E /* PendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB2212101E69F0088870E /* PendingCell.swift */; };
+		047AB22521020A700088870E /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB22421020A700088870E /* PaymentVC.swift */; };
+		047AB2282107007E0088870E /* CustomDeliveryMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB2272107007E0088870E /* CustomDeliveryMainVC.swift */; };
+		047AB22A210700A80088870E /* CustomDeliveryFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB229210700A80088870E /* CustomDeliveryFirstVC.swift */; };
+		047AB22C210700BA0088870E /* CustomHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047AB22B210700BA0088870E /* CustomHistoryVC.swift */; };
+		04E0302F20F7459C00435294 /* DeliveryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0302E20F7459C00435294 /* DeliveryDetailsVC.swift */; };
+		04E0303120F7493700435294 /* SDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E0303020F7493600435294 /* SDragView.swift */; };
+		04E990BF200331C700D7B778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E990BE200331C700D7B778 /* AppDelegate.swift */; };
+		04E990C4200331C700D7B778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E990C2200331C700D7B778 /* Main.storyboard */; };
+		04E990C7200331C700D7B778 /* Speedie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E990C5200331C700D7B778 /* Speedie.xcdatamodeld */; };
+		04E990C9200331C700D7B778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E990C8200331C700D7B778 /* Assets.xcassets */; };
+		04E990CC200331C700D7B778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E990CA200331C700D7B778 /* LaunchScreen.storyboard */; };
+		04E990D7200331C800D7B778 /* SpeedieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E990D6200331C800D7B778 /* SpeedieTests.swift */; };
+		04E990E2200331C800D7B778 /* SpeedieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E990E1200331C800D7B778 /* SpeedieUITests.swift */; };
+		47EE1DB831AB5D1E051BB91B /* Pods_SpeedieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFAE6F2725F3269BB0F0275F /* Pods_SpeedieTests.framework */; };
+		5818399D3F4AF24507C619CA /* Pods_Speedie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF6E5C0FC25A33C6F7D8DD4 /* Pods_Speedie.framework */; };
+		5F74B6CFD0F8029D34201815 /* Pods_SpeedieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310E83CE42728757DA15F4BD /* Pods_SpeedieUITests.framework */; };
+		9A06B4452022D76E00E00F32 /* PhoneNoVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06B4442022D76E00E00F32 /* PhoneNoVCViewController.swift */; };
+		9A06B4892022ED0200E00F32 /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06B4882022ED0200E00F32 /* IntroVC.swift */; };
+		9A06B48B2022F71F00E00F32 /* IntroNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06B48A2022F71F00E00F32 /* IntroNavVC.swift */; };
+		9A06B48D2022F78300E00F32 /* PhoneNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06B48C2022F78300E00F32 /* PhoneNavVC.swift */; };
+		9A06B4962023015D00E00F32 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A06B4912023014500E00F32 /* Poppins-Bold.ttf */; };
+		9A06B4972023015D00E00F32 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A06B4942023014600E00F32 /* Poppins-Light.ttf */; };
+		9A06B4982023015D00E00F32 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A06B4952023014600E00F32 /* Poppins-Medium.ttf */; };
+		9A06B4992023015D00E00F32 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A06B4922023014500E00F32 /* Poppins-Regular.ttf */; };
+		9A06B49A2023015D00E00F32 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A06B4932023014500E00F32 /* Poppins-SemiBold.ttf */; };
+		9A06B49D2023303800E00F32 /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06B49C2023303800E00F32 /* OtpVC.swift */; };
+		9A732A9220242BAB0060D3BC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A9020242BAB0060D3BC /* MBProgressHUD.m */; };
+		9A732A9620242C120060D3BC /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A9420242C120060D3BC /* AsyncImageView.m */; };
+		9A732A9820242CEB0060D3BC /* UserRegistrationDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A9720242CEB0060D3BC /* UserRegistrationDetailVC.swift */; };
+		9A732A9A202464E20060D3BC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A99202464E20060D3BC /* LoginVC.swift */; };
+		9A732A9D202474420060D3BC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A9C202474420060D3BC /* HomeVC.swift */; };
+		9A732A9F202474660060D3BC /* HomeNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A732A9E202474660060D3BC /* HomeNavVC.swift */; };
+		9A732AA12024757B0060D3BC /* GlobalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A732AA02024757B0060D3BC /* GlobalClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04E990D3200331C800D7B778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E990B3200331C700D7B778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E990BA200331C700D7B778;
+			remoteInfo = Speedie;
+		};
+		04E990DE200331C800D7B778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04E990B3200331C700D7B778 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04E990BA200331C700D7B778;
+			remoteInfo = Speedie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04061F2F20EF3C600058093C /* StoreClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreClass.swift; sourceTree = "<group>"; };
+		04061F3120EF3DAF0058093C /* ConstantClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantClass.swift; sourceTree = "<group>"; };
+		04061F3520F09DC80058093C /* MenuTable_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTable_Cell.swift; sourceTree = "<group>"; };
+		04690A1E2107166C00389CB2 /* CustomHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHistoryCell.swift; sourceTree = "<group>"; };
+		04690A202107328100389CB2 /* CustompendingDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustompendingDetailVC.swift; sourceTree = "<group>"; };
+		04690A2221073D5000389CB2 /* PromotionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsVC.swift; sourceTree = "<group>"; };
+		04690A242107619D00389CB2 /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
+		04690A2621083FA600389CB2 /* FaqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaqVC.swift; sourceTree = "<group>"; };
+		04690A282108452300389CB2 /* AccountSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingVC.swift; sourceTree = "<group>"; };
+		047AB2132100A64F0088870E /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		047AB2162100A9760088870E /* EditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingVC.swift; sourceTree = "<group>"; };
+		047AB2192101C5F60088870E /* HistoryMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryMainVC.swift; sourceTree = "<group>"; };
+		047AB21B2101C60B0088870E /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		047AB21D2101C61F0088870E /* PendingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingVC.swift; sourceTree = "<group>"; };
+		047AB21F2101E68D0088870E /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		047AB2212101E69F0088870E /* PendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingCell.swift; sourceTree = "<group>"; };
+		047AB22421020A700088870E /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		047AB2272107007E0088870E /* CustomDeliveryMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDeliveryMainVC.swift; sourceTree = "<group>"; };
+		047AB229210700A80088870E /* CustomDeliveryFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDeliveryFirstVC.swift; sourceTree = "<group>"; };
+		047AB22B210700BA0088870E /* CustomHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHistoryVC.swift; sourceTree = "<group>"; };
+		04E0302E20F7459C00435294 /* DeliveryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailsVC.swift; sourceTree = "<group>"; };
+		04E0303020F7493600435294 /* SDragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDragView.swift; sourceTree = "<group>"; };
+		04E990BB200331C700D7B778 /* Speedie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Speedie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E990BE200331C700D7B778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04E990C3200331C700D7B778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E990C6200331C700D7B778 /* Speedie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Speedie.xcdatamodel; sourceTree = "<group>"; };
+		04E990C8200331C700D7B778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E990CB200331C700D7B778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E990CD200331C700D7B778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E990D2200331C800D7B778 /* SpeedieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E990D6200331C800D7B778 /* SpeedieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedieTests.swift; sourceTree = "<group>"; };
+		04E990D8200331C800D7B778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E990DD200331C800D7B778 /* SpeedieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E990E1200331C800D7B778 /* SpeedieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedieUITests.swift; sourceTree = "<group>"; };
+		04E990E3200331C800D7B778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286285CF990AE83FD7B1327E /* Pods-SpeedieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedieUITests/Pods-SpeedieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		310E83CE42728757DA15F4BD /* Pods_SpeedieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B608863484B87D3795E0C71 /* Pods-Speedie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Speedie/Pods-Speedie.release.xcconfig"; sourceTree = "<group>"; };
+		78C723678E4FD0DB901518DD /* Pods-SpeedieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedieTests/Pods-SpeedieTests.release.xcconfig"; sourceTree = "<group>"; };
+		7F370A337C4DFFC53769D937 /* Pods-SpeedieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedieUITests/Pods-SpeedieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A06B4442022D76E00E00F32 /* PhoneNoVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNoVCViewController.swift; sourceTree = "<group>"; };
+		9A06B4882022ED0200E00F32 /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
+		9A06B48A2022F71F00E00F32 /* IntroNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroNavVC.swift; sourceTree = "<group>"; };
+		9A06B48C2022F78300E00F32 /* PhoneNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNavVC.swift; sourceTree = "<group>"; };
+		9A06B4912023014500E00F32 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		9A06B4922023014500E00F32 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		9A06B4932023014500E00F32 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		9A06B4942023014600E00F32 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9A06B4952023014600E00F32 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		9A06B49C2023303800E00F32 /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		9A732A8F20242BAA0060D3BC /* Speedie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speedie-Bridging-Header.h"; sourceTree = "<group>"; };
+		9A732A9020242BAB0060D3BC /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9A732A9120242BAB0060D3BC /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9A732A9420242C120060D3BC /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		9A732A9520242C120060D3BC /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		9A732A9720242CEB0060D3BC /* UserRegistrationDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationDetailVC.swift; sourceTree = "<group>"; };
+		9A732A99202464E20060D3BC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9A732A9C202474420060D3BC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9A732A9E202474660060D3BC /* HomeNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavVC.swift; sourceTree = "<group>"; };
+		9A732AA02024757B0060D3BC /* GlobalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalClass.swift; sourceTree = "<group>"; };
+		9BF6E5C0FC25A33C6F7D8DD4 /* Pods_Speedie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speedie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53E92472842384C81D09E7F /* Pods-Speedie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Speedie/Pods-Speedie.debug.xcconfig"; sourceTree = "<group>"; };
+		DEE5FA82A5AA2B8BCBB2C731 /* Pods-SpeedieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedieTests/Pods-SpeedieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAE6F2725F3269BB0F0275F /* Pods_SpeedieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E990B8200331C700D7B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5818399D3F4AF24507C619CA /* Pods_Speedie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990CF200331C800D7B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EE1DB831AB5D1E051BB91B /* Pods_SpeedieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990DA200331C800D7B778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F74B6CFD0F8029D34201815 /* Pods_SpeedieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04061F2E20EF3C1C0058093C /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				04E0303020F7493600435294 /* SDragView.swift */,
+				9A732AA02024757B0060D3BC /* GlobalClass.swift */,
+				04061F2F20EF3C600058093C /* StoreClass.swift */,
+				04061F3120EF3DAF0058093C /* ConstantClass.swift */,
+			);
+			name = ModelClasses;
+			sourceTree = "<group>";
+		};
+		047AB2152100A9460088870E /* EditProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				047AB2132100A64F0088870E /* EditProfileVC.swift */,
+				047AB2162100A9760088870E /* EditingVC.swift */,
+			);
+			path = EditProfileVC;
+			sourceTree = "<group>";
+		};
+		047AB2182101C5BB0088870E /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				047AB2192101C5F60088870E /* HistoryMainVC.swift */,
+				047AB21B2101C60B0088870E /* HistoryVC.swift */,
+				047AB21D2101C61F0088870E /* PendingVC.swift */,
+				047AB21F2101E68D0088870E /* HistoryCell.swift */,
+				047AB2212101E69F0088870E /* PendingCell.swift */,
+			);
+			name = HistoryVC;
+			sourceTree = "<group>";
+		};
+		047AB22321020A4F0088870E /* PaymentVC */ = {
+			isa = PBXGroup;
+			children = (
+				047AB22421020A700088870E /* PaymentVC.swift */,
+			);
+			name = PaymentVC;
+			sourceTree = "<group>";
+		};
+		047AB2262107005C0088870E /* CustomDeliveryVC */ = {
+			isa = PBXGroup;
+			children = (
+				047AB2272107007E0088870E /* CustomDeliveryMainVC.swift */,
+				047AB229210700A80088870E /* CustomDeliveryFirstVC.swift */,
+				047AB22B210700BA0088870E /* CustomHistoryVC.swift */,
+				04690A1E2107166C00389CB2 /* CustomHistoryCell.swift */,
+				04690A202107328100389CB2 /* CustompendingDetailVC.swift */,
+			);
+			name = CustomDeliveryVC;
+			sourceTree = "<group>";
+		};
+		04E0302D20F7456D00435294 /* DeliverDetails */ = {
+			isa = PBXGroup;
+			children = (
+				04E0302E20F7459C00435294 /* DeliveryDetailsVC.swift */,
+			);
+			name = DeliverDetails;
+			sourceTree = "<group>";
+		};
+		04E990B2200331C700D7B778 = {
+			isa = PBXGroup;
+			children = (
+				04E990BD200331C700D7B778 /* Speedie */,
+				04E990D5200331C800D7B778 /* SpeedieTests */,
+				04E990E0200331C800D7B778 /* SpeedieUITests */,
+				04E990BC200331C700D7B778 /* Products */,
+				39FA9BA5980CAAAF24A1D75F /* Pods */,
+				442EFB2D002B741D3A3B70ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04E990BC200331C700D7B778 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E990BB200331C700D7B778 /* Speedie.app */,
+				04E990D2200331C800D7B778 /* SpeedieTests.xctest */,
+				04E990DD200331C800D7B778 /* SpeedieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E990BD200331C700D7B778 /* Speedie */ = {
+			isa = PBXGroup;
+			children = (
+				04E990BE200331C700D7B778 /* AppDelegate.swift */,
+				04061F2E20EF3C1C0058093C /* ModelClasses */,
+				9A732A9320242BFE0060D3BC /* AsyncImageClass */,
+				9A732A8E20242B840060D3BC /* MBprogressiveHUD */,
+				9A06B490202300A300E00F32 /* Fonts */,
+				9A06B4432022D73C00E00F32 /* Common */,
+				04E990C2200331C700D7B778 /* Main.storyboard */,
+				04E990C8200331C700D7B778 /* Assets.xcassets */,
+				04E990CA200331C700D7B778 /* LaunchScreen.storyboard */,
+				9A732A8F20242BAA0060D3BC /* Speedie-Bridging-Header.h */,
+				04E990CD200331C700D7B778 /* Info.plist */,
+				04E990C5200331C700D7B778 /* Speedie.xcdatamodeld */,
+			);
+			path = Speedie;
+			sourceTree = "<group>";
+		};
+		04E990D5200331C800D7B778 /* SpeedieTests */ = {
+			isa = PBXGroup;
+			children = (
+				04E990D6200331C800D7B778 /* SpeedieTests.swift */,
+				04E990D8200331C800D7B778 /* Info.plist */,
+			);
+			path = SpeedieTests;
+			sourceTree = "<group>";
+		};
+		04E990E0200331C800D7B778 /* SpeedieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04E990E1200331C800D7B778 /* SpeedieUITests.swift */,
+				04E990E3200331C800D7B778 /* Info.plist */,
+			);
+			path = SpeedieUITests;
+			sourceTree = "<group>";
+		};
+		39FA9BA5980CAAAF24A1D75F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B53E92472842384C81D09E7F /* Pods-Speedie.debug.xcconfig */,
+				6B608863484B87D3795E0C71 /* Pods-Speedie.release.xcconfig */,
+				DEE5FA82A5AA2B8BCBB2C731 /* Pods-SpeedieTests.debug.xcconfig */,
+				78C723678E4FD0DB901518DD /* Pods-SpeedieTests.release.xcconfig */,
+				7F370A337C4DFFC53769D937 /* Pods-SpeedieUITests.debug.xcconfig */,
+				286285CF990AE83FD7B1327E /* Pods-SpeedieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		442EFB2D002B741D3A3B70ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF6E5C0FC25A33C6F7D8DD4 /* Pods_Speedie.framework */,
+				EFAE6F2725F3269BB0F0275F /* Pods_SpeedieTests.framework */,
+				310E83CE42728757DA15F4BD /* Pods_SpeedieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A06B4432022D73C00E00F32 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				047AB2262107005C0088870E /* CustomDeliveryVC */,
+				047AB22321020A4F0088870E /* PaymentVC */,
+				047AB2182101C5BB0088870E /* HistoryVC */,
+				047AB2152100A9460088870E /* EditProfileVC */,
+				04E0302D20F7456D00435294 /* DeliverDetails */,
+				9A732A9B202473F50060D3BC /* HomeVC */,
+				9A06B49B20231E3400E00F32 /* phoneVC */,
+				9A06B48E2022FB6A00E00F32 /* IntroVC */,
+				04690A2221073D5000389CB2 /* PromotionsVC.swift */,
+				04690A242107619D00389CB2 /* AboutUsVC.swift */,
+				04690A2621083FA600389CB2 /* FaqVC.swift */,
+				04690A282108452300389CB2 /* AccountSettingVC.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		9A06B48E2022FB6A00E00F32 /* IntroVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A06B4882022ED0200E00F32 /* IntroVC.swift */,
+				9A06B48A2022F71F00E00F32 /* IntroNavVC.swift */,
+			);
+			path = IntroVC;
+			sourceTree = "<group>";
+		};
+		9A06B490202300A300E00F32 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A06B4912023014500E00F32 /* Poppins-Bold.ttf */,
+				9A06B4942023014600E00F32 /* Poppins-Light.ttf */,
+				9A06B4952023014600E00F32 /* Poppins-Medium.ttf */,
+				9A06B4922023014500E00F32 /* Poppins-Regular.ttf */,
+				9A06B4932023014500E00F32 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A06B49B20231E3400E00F32 /* phoneVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A06B4442022D76E00E00F32 /* PhoneNoVCViewController.swift */,
+				9A06B48C2022F78300E00F32 /* PhoneNavVC.swift */,
+				9A06B49C2023303800E00F32 /* OtpVC.swift */,
+				9A732A9720242CEB0060D3BC /* UserRegistrationDetailVC.swift */,
+				9A732A99202464E20060D3BC /* LoginVC.swift */,
+			);
+			name = phoneVC;
+			sourceTree = "<group>";
+		};
+		9A732A8E20242B840060D3BC /* MBprogressiveHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9A732A9120242BAB0060D3BC /* MBProgressHUD.h */,
+				9A732A9020242BAB0060D3BC /* MBProgressHUD.m */,
+			);
+			path = MBprogressiveHUD;
+			sourceTree = "<group>";
+		};
+		9A732A9320242BFE0060D3BC /* AsyncImageClass */ = {
+			isa = PBXGroup;
+			children = (
+				9A732A9520242C120060D3BC /* AsyncImageView.h */,
+				9A732A9420242C120060D3BC /* AsyncImageView.m */,
+			);
+			path = AsyncImageClass;
+			sourceTree = "<group>";
+		};
+		9A732A9B202473F50060D3BC /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A732A9C202474420060D3BC /* HomeVC.swift */,
+				9A732A9E202474660060D3BC /* HomeNavVC.swift */,
+				04061F3520F09DC80058093C /* MenuTable_Cell.swift */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E990BA200331C700D7B778 /* Speedie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E990E6200331C800D7B778 /* Build configuration list for PBXNativeTarget "Speedie" */;
+			buildPhases = (
+				AD0D270A75E2AAF709C61419 /* [CP] Check Pods Manifest.lock */,
+				04E990B7200331C700D7B778 /* Sources */,
+				04E990B8200331C700D7B778 /* Frameworks */,
+				04E990B9200331C700D7B778 /* Resources */,
+				87F7470B7EB34C595DE7EDDB /* [CP] Embed Pods Frameworks */,
+				6623BEC4455C66078C818427 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Speedie;
+			productName = Speedie;
+			productReference = 04E990BB200331C700D7B778 /* Speedie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04E990D1200331C800D7B778 /* SpeedieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E990E9200331C800D7B778 /* Build configuration list for PBXNativeTarget "SpeedieTests" */;
+			buildPhases = (
+				7B7EE464B480AA7169EA37AF /* [CP] Check Pods Manifest.lock */,
+				04E990CE200331C800D7B778 /* Sources */,
+				04E990CF200331C800D7B778 /* Frameworks */,
+				04E990D0200331C800D7B778 /* Resources */,
+				9982E18ADAEDD70C305A6D8A /* [CP] Embed Pods Frameworks */,
+				179EA38005747F0852660E12 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E990D4200331C800D7B778 /* PBXTargetDependency */,
+			);
+			name = SpeedieTests;
+			productName = SpeedieTests;
+			productReference = 04E990D2200331C800D7B778 /* SpeedieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04E990DC200331C800D7B778 /* SpeedieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E990EC200331C800D7B778 /* Build configuration list for PBXNativeTarget "SpeedieUITests" */;
+			buildPhases = (
+				2ACB0E38323B222ACA544DDE /* [CP] Check Pods Manifest.lock */,
+				04E990D9200331C800D7B778 /* Sources */,
+				04E990DA200331C800D7B778 /* Frameworks */,
+				04E990DB200331C800D7B778 /* Resources */,
+				6FFC5542CB1F73101E6D3ABF /* [CP] Embed Pods Frameworks */,
+				5DFB19F2AD56D6913CA56F50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04E990DF200331C800D7B778 /* PBXTargetDependency */,
+			);
+			name = SpeedieUITests;
+			productName = SpeedieUITests;
+			productReference = 04E990DD200331C800D7B778 /* SpeedieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E990B3200331C700D7B778 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					04E990BA200331C700D7B778 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					04E990D1200331C800D7B778 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E990BA200331C700D7B778;
+					};
+					04E990DC200331C800D7B778 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04E990BA200331C700D7B778;
+					};
+				};
+			};
+			buildConfigurationList = 04E990B6200331C700D7B778 /* Build configuration list for PBXProject "Speedie" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E990B2200331C700D7B778;
+			productRefGroup = 04E990BC200331C700D7B778 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E990BA200331C700D7B778 /* Speedie */,
+				04E990D1200331C800D7B778 /* SpeedieTests */,
+				04E990DC200331C800D7B778 /* SpeedieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E990B9200331C700D7B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E990CC200331C700D7B778 /* LaunchScreen.storyboard in Resources */,
+				9A06B4972023015D00E00F32 /* Poppins-Light.ttf in Resources */,
+				9A06B4992023015D00E00F32 /* Poppins-Regular.ttf in Resources */,
+				04E990C9200331C700D7B778 /* Assets.xcassets in Resources */,
+				9A06B4982023015D00E00F32 /* Poppins-Medium.ttf in Resources */,
+				9A06B49A2023015D00E00F32 /* Poppins-SemiBold.ttf in Resources */,
+				04E990C4200331C700D7B778 /* Main.storyboard in Resources */,
+				9A06B4962023015D00E00F32 /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990D0200331C800D7B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990DB200331C800D7B778 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179EA38005747F0852660E12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedieTests/Pods-SpeedieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ACB0E38323B222ACA544DDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFB19F2AD56D6913CA56F50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedieUITests/Pods-SpeedieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6623BEC4455C66078C818427 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Speedie/Pods-Speedie-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Speedie/Pods-Speedie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FFC5542CB1F73101E6D3ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedieUITests/Pods-SpeedieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7EE464B480AA7169EA37AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F7470B7EB34C595DE7EDDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Speedie/Pods-Speedie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CarbonKit/CarbonKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PinCodeTextField/PinCodeTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CarbonKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PinCodeTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Speedie/Pods-Speedie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9982E18ADAEDD70C305A6D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedieTests/Pods-SpeedieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0D270A75E2AAF709C61419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speedie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E990B7200331C700D7B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04690A252107619D00389CB2 /* AboutUsVC.swift in Sources */,
+				047AB21E2101C61F0088870E /* PendingVC.swift in Sources */,
+				04E0303120F7493700435294 /* SDragView.swift in Sources */,
+				04690A2321073D5000389CB2 /* PromotionsVC.swift in Sources */,
+				04690A212107328100389CB2 /* CustompendingDetailVC.swift in Sources */,
+				04061F3020EF3C600058093C /* StoreClass.swift in Sources */,
+				047AB21A2101C5F60088870E /* HistoryMainVC.swift in Sources */,
+				9A732A9A202464E20060D3BC /* LoginVC.swift in Sources */,
+				047AB2172100A9760088870E /* EditingVC.swift in Sources */,
+				9A06B48B2022F71F00E00F32 /* IntroNavVC.swift in Sources */,
+				04690A2721083FA600389CB2 /* FaqVC.swift in Sources */,
+				04690A1F2107166C00389CB2 /* CustomHistoryCell.swift in Sources */,
+				9A732A9620242C120060D3BC /* AsyncImageView.m in Sources */,
+				9A06B49D2023303800E00F32 /* OtpVC.swift in Sources */,
+				9A732A9820242CEB0060D3BC /* UserRegistrationDetailVC.swift in Sources */,
+				047AB22C210700BA0088870E /* CustomHistoryVC.swift in Sources */,
+				047AB2282107007E0088870E /* CustomDeliveryMainVC.swift in Sources */,
+				047AB21C2101C60B0088870E /* HistoryVC.swift in Sources */,
+				04E990BF200331C700D7B778 /* AppDelegate.swift in Sources */,
+				9A732A9F202474660060D3BC /* HomeNavVC.swift in Sources */,
+				047AB22A210700A80088870E /* CustomDeliveryFirstVC.swift in Sources */,
+				047AB22521020A700088870E /* PaymentVC.swift in Sources */,
+				9A732AA12024757B0060D3BC /* GlobalClass.swift in Sources */,
+				047AB2142100A64F0088870E /* EditProfileVC.swift in Sources */,
+				04E0302F20F7459C00435294 /* DeliveryDetailsVC.swift in Sources */,
+				9A06B4892022ED0200E00F32 /* IntroVC.swift in Sources */,
+				04061F3620F09DC80058093C /* MenuTable_Cell.swift in Sources */,
+				9A06B48D2022F78300E00F32 /* PhoneNavVC.swift in Sources */,
+				047AB2202101E68D0088870E /* HistoryCell.swift in Sources */,
+				9A06B4452022D76E00E00F32 /* PhoneNoVCViewController.swift in Sources */,
+				047AB2222101E69F0088870E /* PendingCell.swift in Sources */,
+				9A732A9D202474420060D3BC /* HomeVC.swift in Sources */,
+				04E990C7200331C700D7B778 /* Speedie.xcdatamodeld in Sources */,
+				04690A292108452300389CB2 /* AccountSettingVC.swift in Sources */,
+				04061F3220EF3DAF0058093C /* ConstantClass.swift in Sources */,
+				9A732A9220242BAB0060D3BC /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990CE200331C800D7B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E990D7200331C800D7B778 /* SpeedieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04E990D9200331C800D7B778 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E990E2200331C800D7B778 /* SpeedieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04E990D4200331C800D7B778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E990BA200331C700D7B778 /* Speedie */;
+			targetProxy = 04E990D3200331C800D7B778 /* PBXContainerItemProxy */;
+		};
+		04E990DF200331C800D7B778 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04E990BA200331C700D7B778 /* Speedie */;
+			targetProxy = 04E990DE200331C800D7B778 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04E990C2200331C700D7B778 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E990C3200331C700D7B778 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E990CA200331C700D7B778 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E990CB200331C700D7B778 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E990E4200331C800D7B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04E990E5200331C800D7B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E990E7200331C800D7B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53E92472842384C81D09E7F /* Pods-Speedie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = Speedie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speedie/Speedie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E990E8200331C800D7B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B608863484B87D3795E0C71 /* Pods-Speedie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = Speedie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speedie/Speedie-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04E990EA200331C800D7B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE5FA82A5AA2B8BCBB2C731 /* Pods-SpeedieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = SpeedieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app.SpeedieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedie.app/Speedie";
+			};
+			name = Debug;
+		};
+		04E990EB200331C800D7B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C723678E4FD0DB901518DD /* Pods-SpeedieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = SpeedieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app.SpeedieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedie.app/Speedie";
+			};
+			name = Release;
+		};
+		04E990ED200331C800D7B778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F370A337C4DFFC53769D937 /* Pods-SpeedieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = SpeedieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app.SpeedieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speedie;
+			};
+			name = Debug;
+		};
+		04E990EE200331C800D7B778 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286285CF990AE83FD7B1327E /* Pods-SpeedieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H78KL84W7V;
+				INFOPLIST_FILE = SpeedieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medcure.app.SpeedieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speedie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E990B6200331C700D7B778 /* Build configuration list for PBXProject "Speedie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E990E4200331C800D7B778 /* Debug */,
+				04E990E5200331C800D7B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E990E6200331C800D7B778 /* Build configuration list for PBXNativeTarget "Speedie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E990E7200331C800D7B778 /* Debug */,
+				04E990E8200331C800D7B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E990E9200331C800D7B778 /* Build configuration list for PBXNativeTarget "SpeedieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E990EA200331C800D7B778 /* Debug */,
+				04E990EB200331C800D7B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E990EC200331C800D7B778 /* Build configuration list for PBXNativeTarget "SpeedieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E990ED200331C800D7B778 /* Debug */,
+				04E990EE200331C800D7B778 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E990C5200331C700D7B778 /* Speedie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E990C6200331C700D7B778 /* Speedie.xcdatamodel */,
+			);
+			currentVersion = 04E990C6200331C700D7B778 /* Speedie.xcdatamodel */;
+			path = Speedie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04E990B3200331C700D7B778 /* Project object */;
+}

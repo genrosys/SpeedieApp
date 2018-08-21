@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CarbonKit (2.2.2)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.6.0):
+    - GoogleMaps/Base (= 2.6.0)
+  - IQKeyboardManagerSwift (5.0.6)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - PinCodeTextField (0.1.0)
+  - PubNub (4.7.7):
+    - PubNub/Core (= 4.7.7)
+  - PubNub/Core (4.7.7)
+  - SDWebImage (4.3.2):
+    - SDWebImage/Core (= 4.3.2)
+  - SDWebImage/Core (4.3.2)
+  - SkyFloatingLabelTextField (3.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - CarbonKit
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - NVActivityIndicatorView
+  - PinCodeTextField
+  - PubNub (~> 4)
+  - SDWebImage (~> 4.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CarbonKit: 0dec4738fa489b4c043a5f850c27fd0dbefb57cc
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  GooglePlaces: f6ddf33b75cef69e888907d9947c57198ed845f3
+  IQKeyboardManagerSwift: 02bfbb0dff71c66d0ab77d80d25dfce0c3717735
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  PinCodeTextField: a3c39be58bde3ed1d6888d0fb1d88b0a4a2277cc
+  PubNub: 3493f9dd62b6d07579ddae5183ab0a0f2ac54091
+  SDWebImage: 29bd3c0bc1f01e5eb59720847c64ad4c4ca1af5d
+  SkyFloatingLabelTextField: 771be94beca6868a6cea187f70c965ebd81d2f93
+
+PODFILE CHECKSUM: 1652e3798225dfd346bab14115d652e86ff1f979
+
+COCOAPODS: 1.4.0
